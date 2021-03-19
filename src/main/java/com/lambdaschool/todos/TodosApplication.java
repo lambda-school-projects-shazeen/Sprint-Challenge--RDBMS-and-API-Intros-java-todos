@@ -6,6 +6,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 /**
  * Main class to start the application.
+ * @EnableJpaAuditing - entity listeners are now going to work
  */
 @EnableJpaAuditing
 @SpringBootApplication
