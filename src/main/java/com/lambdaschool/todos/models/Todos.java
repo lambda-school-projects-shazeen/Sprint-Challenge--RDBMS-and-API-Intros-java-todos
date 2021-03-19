@@ -23,8 +23,6 @@ public class Todos extends Auditable
     @Column(nullable = false)
     private boolean completed;
 
-
-
     public Todos()
     {
     }
